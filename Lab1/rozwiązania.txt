@@ -1,4 +1,4 @@
 find /home/mpanczak -typef -mtime -10 
 find /home/mpanczak -typef -name "*conf*"
 find /home/mpanczak  -typef -atime -20
-
+find /etc -type f -name "a*" -o -type d -name "a*" #trzeba dodać wyszukiwanie niepustych
