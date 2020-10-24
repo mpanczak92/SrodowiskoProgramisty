@@ -1,1 +1,4 @@
 git init - stworzenie repozytorium
+git config --global user.name "Your Name" - konfiguracja nazwy użytkownika
+git config --global user.email your_email_address@example.com - konfiguracja adresu email użytkownika
+
