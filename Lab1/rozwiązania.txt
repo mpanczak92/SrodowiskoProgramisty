@@ -1,1 +1,2 @@
-find -atime -10 
+find /home/mpanczak -atime -10 
+find /home/mpanczak -name "*conf*"
