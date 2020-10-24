@@ -1,4 +1,14 @@
 git init - stworzenie repozytorium
 git config --global user.name "Your Name" - konfiguracja nazwy użytkownika
 git config --global user.email your_email_address@example.com - konfiguracja adresu email użytkownika
-
+git status - sprawdzenie statusu plików
+git add nazwa_pliku.rozszerzenie - dodanie konkretnego pliku do poczekalni
+git add . - wszystkich plików do poczekalni
+git commit -m "opis ..." - wykonanie commitu
+git remote add origin "adres repozytorium.git" - dodanie skrótu do zdalnego repozytorium
+git remote -v - sprawdzenie listy skrótów
+git remote remove nazwa_skrótu - usunięcie skrótu z listy
+git push origin master - umieszczenie repozytorium na serwerze zdalnym, z użyciem skrótu
+git push "link do repozytorium.git" master - umieszczenie repozytorium na serwerze zdalnym bez użycia skrótu
+git clone "adres do repozytorium.git" - tworzenie kopii zdalnego repozytorium
+git dif --nazwapliku.rozszerzenie - sprawdzamy zmiany pliku w porównaniu z poczekalnią
