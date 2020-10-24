@@ -1,6 +1,6 @@
-find /home/mpanczak -type f -mtime -10 
+find /home/mpanczak -maxdepth 0 -mtime -10 
 find /home/mpanczak -type f -name "*conf*"
-find /home/mpanczak  -type f -atime -20
+find /home/mpanczak -atime -20
 find /etc -type f -name "a*" -o -type d -name "a*" #trzeba dodać wyszukiwanie niepustych
 
 
